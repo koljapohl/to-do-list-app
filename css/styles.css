@@ -43,7 +43,11 @@ opacity: .8;}
 
 ol {padding-left: 20px;}
 
-ol li {padding: 5px;color:#000;}
+ol li {
+    padding: 5px;
+    color:#000;
+    border-radius: 10px;
+}
 
 ol li:nth-child(even){background: #dfdfdf;}
 
@@ -65,6 +69,7 @@ li > deleteButton {
 	background: none;
 	border: none;
 	float: right;
-	color: #025f70;
+	color: gray;
+    font-size: 0.7rem;
 	font-weight: 800;
 }

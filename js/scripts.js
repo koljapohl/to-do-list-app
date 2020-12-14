@@ -13,14 +13,14 @@ function newItem() {
         list.append(li);
         input.val(''); //clears the input after adding an item
     }
-    li.on('click', function() {
+    li.on('dblclick', function() {
         li.toggleClass('strike'); //toggles class .strike on clicked li-element
     });
-    let delButton = $('<deleteButton></deleteButton>');
-    delButton.addClass('deleteButton');
-    delButton.append(document.createTextNode('X'));
+    let delButton = $('<deleteButton></deleteButton>'); //create delete Button-Element
+    delButton.append(document.createTextNode('X')); //append Text
     li.append(delButton);
     delButton.on('click', function() {
         li.addClass('delete');
     });
+    list.sortable();
 }
