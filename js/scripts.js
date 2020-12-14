@@ -1,6 +1,6 @@
 let list = $('#list');
 //adding an EventListener for hitting Enter key to add new Items to the list
-$('document').keydown(function(e) {
+$('#input').keydown(function(e) {
     if(e.which == 13) {
         e.preventDefault();
         newItem();
