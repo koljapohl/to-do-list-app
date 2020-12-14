@@ -47,17 +47,21 @@ ol li {padding: 5px;color:#000;}
 
 ol li:nth-child(even){background: #dfdfdf;}
 
-.strike{text-decoration: line-through;}
+.strike {
+    text-decoration: line-through;
+    color: #aa3939;
+}
 
 li:hover{
   cursor: pointer;
+  font-size: 120%;
  }
 
 .delete {
 	display: none;
 }
 
-li > crossOutButton {
+li > deleteButton {
 	background: none;
 	border: none;
 	float: right;
