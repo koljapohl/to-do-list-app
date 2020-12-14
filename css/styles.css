@@ -12,7 +12,8 @@ background: #dfdfdf;
 
 .container {
 padding: 20px;
-width: 300px;
+max-width: 300px;
+min-width: 200px;
 margin: 0 auto;
 margin-top: 40px;
 background: white;
@@ -70,6 +71,6 @@ li > deleteButton {
 	border: none;
 	float: right;
 	color: gray;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 	font-weight: 800;
 }
